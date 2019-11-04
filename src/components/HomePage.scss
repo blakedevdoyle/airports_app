@@ -1,0 +1,46 @@
+.page-container {
+  .page-title {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(218, 23, 23);
+    color: white;
+    margin: 0 0 30px 0;
+  }
+
+  .airport-item-container {
+    margin: auto;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+
+    .details-container {
+      display: flex;
+      flex-direction: column;
+
+      .airport-name {
+        padding-bottom: 5px;
+        font-style: italic;
+      }
+  
+      .country-name {
+        font-weight: bold;
+        color: rgb(218, 23, 23);
+        padding-bottom: 2px;
+      }
+    }
+
+    .view-item-button {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      font-size: 30px;
+    }
+  }
+
+  .loader {
+    margin: auto;
+    padding-top: 200px;
+  }
+}
