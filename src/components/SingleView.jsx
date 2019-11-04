@@ -4,7 +4,7 @@ import './SingleView.scss';
 
 export const SingleView = (props) => {
   const { airport } = props.location.query;
-  console.log(airport);
+
   return (
     <div className="single-view-container">
       <div className="single-view-title">
