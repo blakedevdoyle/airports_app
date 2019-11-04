@@ -1,0 +1,44 @@
+.single-view-container {
+  margin: auto;
+
+  .single-view-title {
+    margin: auto;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .airport-title {
+    color: rgb(218, 23, 23);
+    font-weight: bold;
+  }
+
+  .airport-value {
+    font-style: italic;
+  }
+
+  .airport-info-container {
+    width: 300px;
+    list-style-type: none;
+    margin: auto;
+
+    .item {
+      margin-bottom: 5px;
+    }
+  }
+
+  .home-button-container {
+    text-align: center;
+    margin-top: 100px;
+
+    .home-button {
+      padding: 5px 20px;
+      color: white;
+      background-color: rgb(218, 23, 23);
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}

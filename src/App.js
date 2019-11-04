@@ -1,8 +1,7 @@
 import React from 'react';
-import './App.css';
 import { HomePage } from './components/index';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <HomePage />
