@@ -5,5 +5,3 @@ describe('Examining the syntax of Jest tests', () => {
       expect(2 + 2).toEqual(4);
    });
 });
-
-test('fetch data with axios', )
